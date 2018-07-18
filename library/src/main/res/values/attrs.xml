@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BadgeLayout_LayoutParams">
+        <attr name="targetView" format="reference"/>
+        <attr name="layoutOn" format="enum">
+            <enum name="lt" value="0"/>
+            <enum name="lb" value="1"/>
+            <enum name="rt" value="2"/>
+            <enum name="rb" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
