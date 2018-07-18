@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ljy.android.badgelayout.BadgeRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sample.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="Hello World!"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="99"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        app:targetView="@id/textView"
+        app:layoutOn="lt"
+        android:layout_marginTop="5dp"/>
+
+
+</com.ljy.android.badgelayout.BadgeRelativeLayout>
